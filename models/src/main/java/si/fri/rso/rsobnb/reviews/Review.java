@@ -61,6 +61,14 @@ public class Review {
         return userId;
     }
 
+    public String getRealEstateId() {
+        return realEstateId;
+    }
+
+    public void setRealEstateId(String realEstateId) {
+        this.realEstateId = realEstateId;
+    }
+
     public void setUserId(String userId) {
         this.userId = userId;
     }
@@ -73,4 +81,11 @@ public class Review {
         this.submitted = submitted;
     }
 
+    public double getStars() {
+        return stars;
+    }
+
+    public void setStars(double stars) {
+        this.stars = stars;
+    }
 }
