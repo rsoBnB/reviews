@@ -11,6 +11,7 @@ spec:
     spec:
       containers:
       - image: ggrex/rsobnb-reviews:0.1
+        imagePullPolicy: Always
         name: reviews
         env:
           - name: KUMULUZEE_DISCOVERY_CLUSTER
