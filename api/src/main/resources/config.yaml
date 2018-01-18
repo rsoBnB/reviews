@@ -28,7 +28,7 @@ kumuluzee:
       allow-origin: "*"
   metrics:
     web-instrumentation:
-      - name: orders-endpoint
+      - name: reviews-endpoint
         url-pattern: /v1/orders/*
   logs:
     config-file: '<?xml version="1.0" encoding="UTF-8"?>
